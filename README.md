@@ -1,4 +1,4 @@
 django-mango
 ============
 
-More mango less django
+More Mango, less Django!
