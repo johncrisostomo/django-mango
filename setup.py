@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-import os
-import sys
-import mango
+from mango import mango
 
 try:
     from setuptools import setup
