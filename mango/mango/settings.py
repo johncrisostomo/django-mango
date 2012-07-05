@@ -5,7 +5,7 @@ import site
 
 
 PROJECT_ROOT = os.path.split(os.path.abspath(os.path.dirname(__file__)))[0]
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 # add apps' path so we can import them directly
@@ -13,6 +13,7 @@ site.addsitedir(os.path.join(PROJECT_ROOT, 'apps'))
 
 ADMINS = (
     ('Marconi Moreto', 'caketoad@gmail.com'),
+    ('Mark Steve Samson', 'blazinggale@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -35,7 +36,7 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Asia/Manila'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html

@@ -20,15 +20,18 @@ pip-log.txt
 .coverage
 .tox
 
-#Translations
+# Translations
 *.mo
 
 #Mr Developer
 .mr.developer.cfg
 
-#OSX
+# OSX
 .DS_Store
 
-#Development
+# Development
 *.sqlite
 localsettings.py
+
+# Sublime Text
+*.sublime-workspace
