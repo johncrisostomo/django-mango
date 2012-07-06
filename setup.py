@@ -9,6 +9,7 @@ except ImportError:
 
 packages = ['mango']
 requires = [
+    'Django==1.4',
     'django-social-auth',
 ]
 
