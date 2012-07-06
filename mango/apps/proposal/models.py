@@ -1,21 +1,38 @@
-# from django.db import models
-# from django.utils.translation import ugettext_lazy as _
+from django.db import models
 
 
-# PROPOSAL_TYPE = (
-#     (1, _('Talk')),
-# )
+class ProposalType(models.Model):
+    name = models.CharField(max_length=100)
 
-# AUDIENCE_LEVEL = (
-#     (1, _('Novice'))
-# )
+    def __unicode__(self):
+        return self.name
 
 
-# class Proposal(models.Model):
-#     title = models.CharField(max_length=200)
-#     type = models.CharField(max_length=30, choices=PROPOSAL_TYPE)
-#     audience = models.CharField(max_length=30, choices=AUDIENCE_LEVEL)
-#     category = models.ForeignKey()
-#     duration = models.
-#     description = models.TextField()
-#     abstract = models.TextField()
+class Category(models.Model):
+    name = models.CharField(max_length=100)
+
+    class Meta:
+        verbose_name_plural = u'Categories'
+
+    def __unicode__(self):
+        return self.name
+
+
+class AudienceLevel(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __unicode__(self):
+        return self.name
+
+
+class Proposal(models.Model):
+    title = models.CharField(max_length=200)
+    type = models.ForeignKey(ProposalType)
+    audience = models.ForeignKey(AudienceLevel)
+    category = models.ForeignKey(Category)
+    duration = models.CharField(max_length=20)
+    description = models.TextField()
+    abstract = models.TextField()
+
+    def __unicode__(self):
+        return self.title

@@ -128,6 +128,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Third-party
     'social_auth',
+    'south',
     # Django Mango
     'generic',
     'proposal',

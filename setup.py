@@ -11,6 +11,7 @@ packages = ['mango']
 requires = [
     'Django==1.4',
     'django-social-auth',
+    'South==0.7.5'
 ]
 
 setup(
