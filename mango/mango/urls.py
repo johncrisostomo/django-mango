@@ -10,6 +10,9 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^$', 'generic.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^logout$', 'django.contrib.auth.views.logout', {'next_page': '/'}),
+    # Django Social Auth
+    url(r'', include('social_auth.urls')),
 )
 
 if settings.DEBUG:

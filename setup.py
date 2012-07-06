@@ -8,7 +8,9 @@ except ImportError:
     from distutils.core import setup
 
 packages = ['mango']
-requires = []
+requires = [
+    'django-social-auth',
+]
 
 setup(
     name=mango.__title__,
