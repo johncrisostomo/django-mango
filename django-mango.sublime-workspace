@@ -1,0 +1,1689 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"from_em",
+				"from_email_resource_id	(local, instance)"
+			],
+			[
+				"from_",
+				"from_email_collection	(local, instance)"
+			],
+			[
+				"extr",
+				"extraJumpHeight"
+			],
+			[
+				"min",
+				"minHoleDist"
+			],
+			[
+				"verti",
+				"vertical-align"
+			],
+			[
+				"next",
+				"nextFeature"
+			],
+			[
+				"upda",
+				"updateTimeout"
+			],
+			[
+				"browser",
+				"browser-resources"
+			],
+			[
+				"ant",
+				"antiscroll-inner"
+			],
+			[
+				"get_all",
+				"get_all_resources_of_user	(attribute, function)"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"ver",
+				"vertical	vertical-align: type"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"get_ac",
+				"get_activities_of_resource	(attribute, function)"
+			],
+			[
+				"Aci",
+				"ActivityComment"
+			],
+			[
+				"parse",
+				"parseActivity"
+			],
+			[
+				"get_activi",
+				"get_activities_of_user	(attribute, function)"
+			],
+			[
+				"WSGI",
+				"WSGIServer	(global, class)"
+			],
+			[
+				"get_act",
+				"get_activities_of_user	(attribute, function)"
+			],
+			[
+				"date",
+				"datetime_to_timestamp"
+			],
+			[
+				"feed-entry",
+				"feed-entry-content"
+			],
+			[
+				"get_a",
+				"get_comments_of_activity	(attribute, function)"
+			],
+			[
+				"Acti",
+				"ActivityComment	(imported, class)"
+			],
+			[
+				"signe",
+				"signed_in_ids"
+			],
+			[
+				"add",
+				"addActivities"
+			],
+			[
+				"before",
+				"before_timestamp	(local, instance)"
+			],
+			[
+				"ac",
+				"activities"
+			],
+			[
+				"acti",
+				"activity_class	(local, instance)"
+			],
+			[
+				"get_re",
+				"get_resources_of_user_collection	(attribute, function)"
+			],
+			[
+				"contn",
+				"contentType2"
+			],
+			[
+				"sig",
+				"signed_in_users"
+			],
+			[
+				"redire",
+				"redirect_uri=	(parameter_keyword, instance)"
+			],
+			[
+				"CLIENT",
+				"CLIENT_SECRET	(global, instance)"
+			],
+			[
+				"auth",
+				"AUTH_SCOPES	(global, instance)"
+			],
+			[
+				"prev",
+				"prevParentIDs"
+			],
+			[
+				"base",
+				"base64_url_decode	(imported, function)"
+			],
+			[
+				"oauth_",
+				"oauth_dialog_url	(local, instance)"
+			],
+			[
+				"fb_client",
+				"fb_client_secret	(local, instance)"
+			],
+			[
+				"Ge",
+				"GeventWebSocketHandler	(global, class)"
+			],
+			[
+				"content",
+				"content_type	(local, instance)"
+			],
+			[
+				"Pino",
+				"PinoyHenyo	(global, class)"
+			],
+			[
+				"socket",
+				"socketio_manage"
+			],
+			[
+				"OPE",
+				"OPENTOK_SECRET	(global, instance)"
+			],
+			[
+				"ws_m",
+				"ws_messages_thread"
+			],
+			[
+				"ws_mess",
+				"ws_messages_thread	(local, instance)"
+			],
+			[
+				"strip",
+				"stripped_message	(local, instance)"
+			],
+			[
+				"Lis",
+				"Listener"
+			],
+			[
+				"Liste",
+				"Listener"
+			],
+			[
+				"addLi",
+				"addListener"
+			],
+			[
+				"DEV_",
+				"DEV_SERVER_PORT	(global, instance)"
+			],
+			[
+				"googl",
+				"google_user_email"
+			],
+			[
+				"remo",
+				"removed_sharee_names	(local, instance)"
+			],
+			[
+				"old",
+				"old_sharee_names	(local, instance)"
+			],
+			[
+				"old_sha",
+				"old_sharee_names	(local, instance)"
+			],
+			[
+				"new_share",
+				"new_sharee_names	(local, instance)"
+			],
+			[
+				"gdocs",
+				"gdocsactivities	(imported, instance)"
+			],
+			[
+				"Det",
+				"DetectChangedResources"
+			],
+			[
+				"remove",
+				"removed_sharees	(local, instance)"
+			],
+			[
+				"added_sh",
+				"added_sharees_dict	(local, instance)"
+			],
+			[
+				"old_re",
+				"old_resources_dict	(local, instance)"
+			],
+			[
+				"DOTCLOU",
+				"DOTCLOUD_DATA_REDIS_PASSWORD"
+			],
+			[
+				"DOT",
+				"DOTCLOUD_DATA_REDIS_PORT"
+			],
+			[
+				"DOTCLOUD",
+				"DOTCLOUD_DATA_REDIS_HOST"
+			],
+			[
+				"GD",
+				"GDocsEntry	(global, class)"
+			],
+			[
+				"decl",
+				"declare_api_config	(global, function)"
+			],
+			[
+				"excep",
+				"exceptional_url"
+			],
+			[
+				"quota_by",
+				"quota_bytes_used_in_trash"
+			],
+			[
+				"get_",
+				"get_gdocs_client	(imported, function)"
+			],
+			[
+				"goog",
+				"google_user_id"
+			],
+			[
+				"ins",
+				"insync_user_emails	(local, instance)"
+			],
+			[
+				"doma",
+				"domain_test_user	(attribute, class)"
+			],
+			[
+				"Test",
+				"TestDashboardUsers	(imported, class)"
+			],
+			[
+				"TestD",
+				"TestDashboardUsers	(imported, class)"
+			],
+			[
+				"sign",
+				"signin_required_tool_test_user	(global, instance)"
+			],
+			[
+				"signin_",
+				"signin_required_tool_test_user	(attribute, class)"
+			],
+			[
+				"Ses",
+				"SessionNoWrite	(global, class)"
+			],
+			[
+				"_setup",
+				"_setup_test_db	(attribute, function)"
+			],
+			[
+				"Han",
+				"HandlerWrapperTool"
+			],
+			[
+				"reque",
+				"request_init"
+			],
+			[
+				"Ass",
+				"AssetURLBuilderTest	(global, class)"
+			],
+			[
+				"ass",
+				"asset_url_builder	(imported, instance)"
+			],
+			[
+				"is",
+				"isinstance	(builtin, function)"
+			],
+			[
+				"Not",
+				"NotificationManager"
+			],
+			[
+				"AdminR",
+				"AdminRequiredToolTestUser	(imported, class)"
+			],
+			[
+				"DBTool",
+				"DBToolTestUser	(imported, class)"
+			],
+			[
+				"Ad",
+				"AdminRequiredToolTestUser	(global, instance)"
+			],
+			[
+				"DBToo",
+				"DBToolTestUser	(global, class)"
+			],
+			[
+				"admin_",
+				"admin_required_test_user	(global, instance)"
+			],
+			[
+				"db_tool",
+				"db_tool_test_user	(global, instance)"
+			],
+			[
+				"db",
+				"dbfixture	(local, instance)"
+			],
+			[
+				"TestU",
+				"ToolTestsUser	(imported, class)"
+			],
+			[
+				"Go",
+				"GoogleUserData	(imported, class)"
+			],
+			[
+				"tool",
+				"tool_tests_user	(attribute, class)"
+			],
+			[
+				"db_",
+				"db_tool_test_user	(local, instance)"
+			],
+			[
+				"Goo",
+				"GoogleUserData	(global, class)"
+			],
+			[
+				"GoogleUse",
+				"GoogleUserData"
+			],
+			[
+				"check",
+				"check_instance"
+			],
+			[
+				"Handl",
+				"HandlerWrapperTool	(imported, class)"
+			],
+			[
+				"index",
+				"index_controller_cls	(local, instance)"
+			],
+			[
+				"insync",
+				"insyncrocks"
+			],
+			[
+				"UTF",
+				"UTF8_TYPE"
+			],
+			[
+				"han",
+				"handler_method"
+			],
+			[
+				"gdocs_",
+				"gdocs_db_manager"
+			],
+			[
+				"socket_",
+				"socket_timeout"
+			],
+			[
+				"batch_",
+				"batch_process_acl_entries"
+			],
+			[
+				"goo",
+				"google_user_dict	(local, instance)"
+			],
+			[
+				"confirm",
+				"confirming-unlink"
+			],
+			[
+				"google_use",
+				"google_user_contacts	(local, instance)"
+			],
+			[
+				"ALL",
+				"ALLOWED_CSS_PROPERTIES	(global, instance)"
+			],
+			[
+				"crea",
+				"create_sa_engine	(global, function)"
+			],
+			[
+				"Colle",
+				"CollectUserStatsTask	(local, class)"
+			],
+			[
+				"Collect",
+				"CollectGoogleStorageStatsSubTask	(local, class)"
+			],
+			[
+				"pree",
+				"preventDefault"
+			],
+			[
+				"dow",
+				"download-as-menu"
+			],
+			[
+				"Col",
+				"CollectFileStatsTask"
+			],
+			[
+				"beat",
+				"beat_schedule_file"
+			],
+			[
+				"time",
+				"timedelta"
+			],
+			[
+				"setu",
+				"setup_celery"
+			],
+			[
+				"yes",
+				"yesterday_timestamp"
+			],
+			[
+				"toda",
+				"today_rfc3339"
+			],
+			[
+				"RF",
+				"RFC3339_FORMAT"
+			],
+			[
+				"gdocs_r",
+				"gdocs_resources_db"
+			],
+			[
+				"gdo",
+				"gdocs_resources_db"
+			],
+			[
+				"gdocs_res",
+				"gdocs_resources_domains"
+			],
+			[
+				"stats",
+				"statscollector"
+			],
+			[
+				"inter",
+				"interval_type"
+			],
+			[
+				"int",
+				"interval_type"
+			],
+			[
+				"char",
+				"chartData"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/LOVE.sublime-build",
+	"command_palette":
+	{
+		"height": 76.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html jin",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"html ji",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"jij",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"jinja",
+				"Set Syntax: Jinja Templates"
+			],
+			[
+				"jinj",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"cdn",
+				"cdnjs: Import Script"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"cdnj",
+				"cdnjs: Import Script"
+			],
+			[
+				"project",
+				"Rope: New Project"
+			],
+			[
+				"cd",
+				"cdnjs: Import Script"
+			],
+			[
+				"p",
+				"Rope: New Project"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"proje",
+				"Rope: New Project"
+			],
+			[
+				"import",
+				"Rope: Import Assist"
+			],
+			[
+				"rope",
+				"Rope: Import Assist"
+			],
+			[
+				"snipp",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"proj",
+				"Rope: New Project"
+			],
+			[
+				"rope new p",
+				"Rope: New Project"
+			],
+			[
+				"new ",
+				"Rope: New Project"
+			],
+			[
+				"docu",
+				"Rope: Show Documentation"
+			],
+			[
+				"do",
+				"Rope: Show Documentation"
+			],
+			[
+				"dou",
+				"Rope: Show Documentation"
+			],
+			[
+				"rop",
+				"Rope: New Project"
+			],
+			[
+				"rename",
+				"Rope Refactoring: Rename"
+			],
+			[
+				"assit",
+				"Rope: Import Assist"
+			],
+			[
+				"im",
+				"Rope: Import Assist"
+			],
+			[
+				"assis",
+				"Rope: Import Assist"
+			],
+			[
+				"rope ass",
+				"Rope: Import Assist"
+			],
+			[
+				"rope assi",
+				"Rope: Import Assist"
+			],
+			[
+				"rope:",
+				"Rope: Import Assist"
+			],
+			[
+				"docum",
+				"Rope: Show Documentation"
+			],
+			[
+				"new proj",
+				"Rope: New Project"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"rena",
+				"Rope Refactoring: Rename"
+			],
+			[
+				"renam",
+				"Rope Refactoring: Rename"
+			],
+			[
+				"refa",
+				"Rope Refactoring: Rename"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"goto",
+				"Rope: Go to Definition"
+			],
+			[
+				"Rope",
+				"Rope: Go to Definition"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"rope: n",
+				"Rope: New Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch"
+			],
+			[
+				"PackageIn",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				":sort",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"pakac",
+				"Package Control: Install Package"
+			],
+			[
+				":Packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pkac",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"packa",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				":package",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 273.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marksteve/Projects/Github/django-mango/,",
+		"/Users/marksteve/Projects/Github/django-mango/django-mango.sublime-workspace",
+		"/Users/marksteve/Projects/Github/django-mango/setup.py",
+		"/Users/marksteve/Projects/Github/django-mango/django-mango.sublime-project",
+		"/Users/marksteve/Projects/Github/githubbers/index.html",
+		"/Users/marksteve/Projects/Github/githubbers/stylesheets/layout.css",
+		"/Users/marksteve/Projects/Github/githubbers/README.md",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/contextio.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/__init__.py",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/Default/Preferences (OSX).sublime-settings",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/User/Python.sublime-settings",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/redis_session.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/app.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/app.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/session.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/_flask_openid.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/__init__.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/drive.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/setup.py",
+		"/Library/Python/2.6/site-packages/gdata-2.0.14-py2.6.egg/gdata/__init__.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/setup.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/setup.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/coredb/_gmail.py",
+		"/Users/marksteve/.virtualenvs/isyncd-next/lib/python2.6/site-packages/gdata-2.0.16-py2.6.egg/gdata/gauth.py",
+		"/Users/marksteve/.virtualenvs/isyncd-next/lib/python2.6/site-packages/flaskext/openid.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/runserver.py",
+		"/Users/marksteve/.virtualenvs/isyncd-next/lib/python2.6/site-packages/isyncd.serverutils-0.1.3-py2.6.egg/isyncd/server/__init__.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/run_server.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/static/css/gmail.css",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/attachments.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/templates/gmail/index.html",
+		"/Users/marksteve/.virtualenvs/isyncd-next/lib/python2.6/site-packages/gdata-2.0.16-py2.6.egg/gdata/docs/client.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/config.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/templates/gmail/connect_drive.html",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/templates/gmail/connect_dropbox.html",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/static/openid/.well-known/host-meta",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/static/openid/openid",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/static/js/gmail.js",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/static/css/base.css",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/static/css/lib/ui.css",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/static/css/landing.css",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/static/gmail.css",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/static/bg.png",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/templates/index.html",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/coredb/app.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/coredb/_self.py",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Projects/gmail.sublime-project",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/coredb/__init__.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/db/_self.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/coredb/_device.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/coredb/_util.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/README.txt",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/db/_util.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/db/_types.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/coredb/isyncd/db/_device.py",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/setup.py",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/requirements.txt",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko.sublime-project",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko.sublime-workspace",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/settings.py",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko/setup.py",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/SublimeREPL/config/Python/Default.sublime-commands",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/SublimeREPL/Main.sublime-menu",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko/__init__.py",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko/views/__init__.py",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko/views/static.py",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko/templates/base.html",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko/run.py",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/MANIFEST.in",
+		"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko/app.py",
+		"/Users/marksteve/Downloads/noun_project_1908.svg",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/web/templates/gmail/connect_gdocs.html",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/gdocs.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/attachments/fetcher.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/gmail/py/isyncd/gmail/attachments/__init__.py",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/static/css/mobile.css",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/templates/mobile.html",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/templates/base_mobile.html",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/templates/base.html",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/templates/about.html",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/static/css/about.css",
+		"/Users/marksteve/Projects/Insync/Repos/Next/web/py/isyncd/web/static/css/icon.css",
+		"/Users/marksteve/Projects/Github/chronoescape/player.lua",
+		"/Users/marksteve/Projects/Github/chronoescape/conf.lua",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/C++/C++.sublime-build",
+		"/Users/marksteve/Dropbox/Sublime Text 2/Packages/User/LOVE.sublime-build",
+		"/Users/marksteve/Projects/Insync/Repos/vanilla/conf/config-defaults.php",
+		"/Users/marksteve/Projects/Insync/Repos/vanilla/conf/config.php",
+		"/Users/marksteve/Projects/Insync/Repos/vanilla/applications/dashboard/modules/class.menumodule.php",
+		"/Users/marksteve/Projects/Insync/Repos/vanilla/applications/dashboard/modules/class.sidemenumodule.php",
+		"/C/Users/MarkSteve/Projects/chronoescape/main.lua",
+		"/C/Users/MarkSteve/Projects/chronoescape/player.lua",
+		"/C/Users/MarkSteve/Projects/chronoescape/platform.lua",
+		"/Users/marksteve/Projects/Github/chronoescape/platform.lua",
+		"/Users/marksteve/Projects/Github/chronoescape/main.lua",
+		"/Users/marksteve/Projects/Github/chronoescape/camera.lua",
+		"/Users/marksteve/Downloads/examples/l.",
+		"/Users/marksteve/Projects/Github/chronoescape/index.html",
+		"/Users/marksteve/Projects/Github/chronoescape/game.js",
+		"/Users/marksteve/Projects/Github/pchubsearch/scraper/scraper/pipelines.py",
+		"/Users/marksteve/Projects/Github/pchubsearch/scraper/scraper/settings.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/new_page.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/about/index.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/windowsphone/index.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/blackberry/index.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/android/index.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/assets.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/public/stylesheets/new/font-awesome.css",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/iphone/index.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/util.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/controllers/android.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/controllers/iphone.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/controllers/windowsphone.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/controllers/blackberry.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/controllers/unsubscribe.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/controllers/__init__.py",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/email/notify_mobile.txt",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/email/notify_mobile.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/mobile/index.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/views/app/splash.html",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/public/javascripts/mobile.js",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/public/stylesheets/mixins.css",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/public/images/new/drive-32.png",
+		"/Users/marksteve/Projects/Insync/Repos/web/dev/py/isyncd/web/app.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/marksteve/Projects/Insync/web/dev/public/javascripts/lib",
+			"",
+			"*.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hashlib",
+			"keep_in",
+			"urllib",
+			"DRIVE_PARENT_COLLECTION",
+			"RESOURCE_FEED_URI",
+			"get_token",
+			"attachment",
+			"dropbox_service",
+			"from_email",
+			"message_data",
+			"gevent",
+			"Redis",
+			"total_seconds",
+			"    ",
+			"conf.prefix('google",
+			"conf['google",
+			"google",
+			"redirect_uri",
+			"google",
+			"connect_drive",
+			"is_debug",
+			"replace",
+			"dropbox",
+			"replace",
+			"connect_drive",
+			"repl",
+			"url_for\\(",
+			"url_for(",
+			"urllib",
+			"==",
+			"argparse",
+			"==",
+			"oauth",
+			"url_for",
+			"http",
+			"next",
+			"openid",
+			"signin",
+			"secret =",
+			"generate_request_for_access_token",
+			"access_token_url",
+			"access_token*",
+			"access_token",
+			"def get_access_token",
+			"get_access_token",
+			"upgrade_to_access_token",
+			"authorized_",
+			"request_token",
+			"ud",
+			"session",
+			"request",
+			"access",
+			"gd_client",
+			"SCOPES",
+			"flask_openid",
+			"flask_op",
+			"openid",
+			"flask_openid",
+			"resp",
+			"OpenIDResponse",
+			"insync",
+			"ask_for",
+			"ax",
+			"sane",
+			"sanebox",
+			"try_login",
+			"openid",
+			"oid",
+			"app",
+			"border-rad",
+			"border-r",
+			"signin",
+			"append",
+			"args.aeppe",
+			"update(",
+			"get_all_resource",
+			"get_",
+			"account_id",
+			"marksteve",
+			"marksteve@insynchq",
+			"put_file",
+			"test",
+			"logging.info",
+			"print",
+			"logging",
+			"print",
+			"conf",
+			"openid",
+			"conf.load",
+			"conf",
+			"OpenID",
+			"openid",
+			"301",
+			"patch_all",
+			"_external",
+			"redirect",
+			"make_response",
+			"example",
+			"service_id",
+			"success",
+			"_delete_webhook",
+			"signed_in_id",
+			"signed_in",
+			"remove",
+			"box-shadow",
+			"box-shado",
+			"h1",
+			"wtw",
+			"static",
+			"set-label",
+			"message",
+			"_suggest_label",
+			"_sug",
+			"#account",
+			"service.up",
+			"update(",
+			"update",
+			"#account",
+			"logger",
+			"gm",
+			"gm_client",
+			"text",
+			"conf",
+			"Column",
+			"DbError",
+			"26",
+			"@Drive/Creating labels...",
+			"INFO[^\\]]+] "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"  ",
+			"",
+			"@Drive/",
+			"platform",
+			"camera",
+			"/images/new",
+			"/static/images/",
+			"insynchq.com",
+			"'",
+			"signin_required",
+			"CONTROLLER_CLASS",
+			"$email",
+			"\\n\\nFile",
+			"\\nFile",
+			"/",
+			"",
+			"h2",
+			"\\",
+			"/",
+			"#friends ul",
+			"#friends",
+			"get_elements",
+			"",
+			"<br/>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 28.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"style",
+				"stylesheets/layout.css"
+			],
+			[
+				"styl",
+				"stylesheets/layout.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"context",
+				"gmail/py/isyncd/gmail/contextio.py"
+			],
+			[
+				"web__ini",
+				"gmail/py/isyncd/gmail/web/__init__.py"
+			],
+			[
+				"drive",
+				"gmail/py/isyncd/gmail/drive.py"
+			],
+			[
+				"app.py",
+				"web/py/isyncd/web/app.py"
+			],
+			[
+				"_drop",
+				"gmail/py/isyncd/gmail/_dropbox.py"
+			],
+			[
+				"atta",
+				"gmail/py/isyncd/gmail/attachments.py"
+			],
+			[
+				"redis_s",
+				"web/py/isyncd/web/redis_session.py"
+			],
+			[
+				"gmail/app",
+				"gmail/py/isyncd/gmail/app.py"
+			],
+			[
+				"_flas",
+				"gmail/py/isyncd/gmail/_flask_openid.py"
+			],
+			[
+				"web__",
+				"gmail/py/isyncd/gmail/web/__init__.py"
+			],
+			[
+				"se",
+				"gmail/setup.py"
+			],
+			[
+				"set",
+				"gmail/setup.py"
+			],
+			[
+				"drive.",
+				"gmail/py/isyncd/gmail/drive.py"
+			],
+			[
+				"app.p",
+				"gmail/py/isyncd/gmail/app.py"
+			],
+			[
+				"web",
+				"gmail/py/isyncd/gmail/web/__init__.py"
+			],
+			[
+				"s",
+				"web/setup.py"
+			],
+			[
+				"app",
+				"web/py/isyncd/web/app.py"
+			],
+			[
+				"setup",
+				"web/setup.py"
+			],
+			[
+				"webapp",
+				"web/py/isyncd/web/app.py"
+			],
+			[
+				"gma",
+				"coredb/isyncd/coredb/_gmail.py"
+			],
+			[
+				"gmail.py",
+				"coredb/isyncd/coredb/_gmail.py"
+			],
+			[
+				"rus",
+				"web/py/isyncd/web/runserver.py"
+			],
+			[
+				"gmail.css",
+				"gmail/py/isyncd/gmail/web/static/css/gmail.css"
+			],
+			[
+				"web/index",
+				"gmail/py/isyncd/gmail/web/templates/gmail/index.html"
+			],
+			[
+				"att",
+				"gmail/py/isyncd/gmail/attachments.py"
+			],
+			[
+				"conte",
+				"gmail/py/isyncd/gmail/contextio.py"
+			],
+			[
+				"attach",
+				"gmail/py/isyncd/gmail/attachments.py"
+			],
+			[
+				"web_i",
+				"gmail/py/isyncd/gmail/web/__init__.py"
+			],
+			[
+				"web_ini",
+				"web/py/isyncd/web/__init__.py"
+			],
+			[
+				"conne",
+				"gmail/py/isyncd/gmail/web/templates/gmail/connect_dropbox.html"
+			],
+			[
+				"conn",
+				"gmail/py/isyncd/gmail/web/templates/gmail/connect_drive.html"
+			],
+			[
+				"css",
+				"web/py/isyncd/web/static/css/landing.css"
+			],
+			[
+				"ui.css",
+				"gmail/py/isyncd/gmail/web/static/css/lib/ui.css"
+			],
+			[
+				"base.css",
+				"web/py/isyncd/web/static/css/base.css"
+			],
+			[
+				"gmail.js",
+				"gmail/py/isyncd/gmail/web/static/js/gmail.js"
+			],
+			[
+				"gmai",
+				"gmail/py/isyncd/gmail/web/static/gmail.css"
+			],
+			[
+				"gmail/index",
+				"gmail/py/isyncd/gmail/web/templates/gmail/index.html"
+			],
+			[
+				"gmail/inde",
+				"gmail/py/isyncd/gmail/web/templates/gmail/index.html"
+			],
+			[
+				"index",
+				"web/py/isyncd/web/templates/index.html"
+			],
+			[
+				"connec",
+				"gmail/py/isyncd/gmail/web/templates/gmail/connect_dropbox.html"
+			],
+			[
+				"_s",
+				"isyncd/coredb/_self.py"
+			],
+			[
+				"_de",
+				"isyncd/coredb/_device.py"
+			],
+			[
+				"_ut",
+				"isyncd/coredb/_util.py"
+			],
+			[
+				"contex",
+				"py/isyncd/gmail/contextio.py"
+			],
+			[
+				"gmail.html",
+				"py/isyncd/gmail/web/templates/gmail/index.html"
+			],
+			[
+				"attachments",
+				"py/isyncd/gmail/attachments/__init__.py"
+			],
+			[
+				"fet",
+				"py/isyncd/gmail/attachments/fetcher.py"
+			],
+			[
+				"web_",
+				"py/isyncd/gmail/web/__init__.py"
+			],
+			[
+				"base_mo",
+				"py/isyncd/web/templates/base_mobile.html"
+			],
+			[
+				"base",
+				"py/isyncd/web/templates/base.html"
+			],
+			[
+				"mobile",
+				"py/isyncd/web/static/css/mobile.css"
+			],
+			[
+				"about.",
+				"py/isyncd/web/static/css/about.css"
+			],
+			[
+				"lan",
+				"py/isyncd/web/static/css/landing.css"
+			],
+			[
+				"landing",
+				"py/isyncd/web/static/css/landing.css"
+			],
+			[
+				"page",
+				"py/isyncd/web/static/css/page.css"
+			],
+			[
+				"conf",
+				"conf.lua"
+			],
+			[
+				"plat",
+				"platform.lua"
+			],
+			[
+				"player",
+				"player.lua"
+			],
+			[
+				"config",
+				"conf/config.php"
+			],
+			[
+				"config-de",
+				"conf/config-defaults.php"
+			],
+			[
+				"came",
+				"camera.lua"
+			],
+			[
+				"c",
+				"camera.lua"
+			],
+			[
+				"game",
+				"game.js"
+			],
+			[
+				"scraper/items",
+				"scraper/scraper/items.py"
+			],
+			[
+				"black",
+				"py/isyncd/web/views/blackberry/index.html"
+			],
+			[
+				"window",
+				"py/isyncd/web/views/windowsphone/index.html"
+			],
+			[
+				"iphone",
+				"py/isyncd/web/views/iphone/index.html"
+			],
+			[
+				"new_",
+				"py/isyncd/web/views/new_page.html"
+			],
+			[
+				"android",
+				"py/isyncd/web/views/android/index.html"
+			],
+			[
+				"splash.html",
+				"py/isyncd/web/views/app/splash.html"
+			],
+			[
+				"font-",
+				"public/stylesheets/new/font-awesome.css"
+			],
+			[
+				"ass",
+				"py/isyncd/web/assets.py"
+			],
+			[
+				"asset",
+				"py/isyncd/web/assets.py"
+			],
+			[
+				"iphone/in",
+				"py/isyncd/web/views/iphone/index.html"
+			],
+			[
+				"androi/inde",
+				"py/isyncd/web/views/android/index.html"
+			],
+			[
+				"windowindex",
+				"py/isyncd/web/views/windowsphone/index.html"
+			],
+			[
+				"iphone/index",
+				"py/isyncd/web/views/iphone/index.html"
+			],
+			[
+				"andr",
+				"py/isyncd/web/controllers/android.py"
+			],
+			[
+				"con__",
+				"py/isyncd/web/controllers/__init__.py"
+			],
+			[
+				"iphone/inde",
+				"py/isyncd/web/views/iphone/index.html"
+			],
+			[
+				"mobi",
+				"public/stylesheets/new/mobile.css"
+			],
+			[
+				"and",
+				"py/isyncd/web/views/android/index.html"
+			],
+			[
+				"new_pa",
+				"py/isyncd/web/views/new_page.html"
+			],
+			[
+				"mixin",
+				"public/stylesheets/mixins.css"
+			],
+			[
+				"mobile.",
+				"public/javascripts/mobile.js"
+			],
+			[
+				"assets",
+				"py/isyncd/web/assets.py"
+			],
+			[
+				"anrindex",
+				"py/isyncd/web/views/android/index.html"
+			],
+			[
+				"new/",
+				"public/stylesheets/new/page.css"
+			],
+			[
+				"font-aw",
+				"public/stylesheets/new/font-awesome.css"
+			],
+			[
+				"newp",
+				"public/stylesheets/new-page.min.css"
+			],
+			[
+				"page.css",
+				"public/stylesheets/new/page.css"
+			],
+			[
+				"controll__ini",
+				"py/isyncd/web/controllers/__init__.py"
+			],
+			[
+				"as",
+				"py/isyncd/web/assets.py"
+			],
+			[
+				"util",
+				"py/isyncd/web/util.py"
+			],
+			[
+				"common",
+				"py/oksbadocsweb/static/css/common.css"
+			],
+			[
+				"server",
+				"py/oksbadocsweb/server.py"
+			],
+			[
+				"router",
+				"py/oksbadocsweb/static/js/router.js"
+			],
+			[
+				"app.js",
+				"py/oksbadocsweb/static/js/app.js"
+			],
+			[
+				"browser",
+				"py/oksbadocsweb/static/js/view.browser.js"
+			],
+			[
+				"app.css",
+				"py/oksbadocsweb/static/css/app.css"
+			],
+			[
+				"jade",
+				"py/oksbadocsweb/templates/index.jade"
+			],
+			[
+				"index.html",
+				"py/oksbadocsweb/templates/index.html"
+			],
+			[
+				"brow",
+				"py/oksbadocsweb/static/js/view.browser.js"
+			],
+			[
+				"index.jade",
+				"py/oksbadocsweb/templates/index.jade"
+			],
+			[
+				"ican",
+				"py/oksbadocsweb/static/js/lib/ICanHaz.min.js"
+			],
+			[
+				"ser",
+				"py/oksbadocsweb/server.py"
+			],
+			[
+				"f",
+				"py/oksbadocsweb/static/css/font-awesome.css"
+			],
+			[
+				"gdocsmodels",
+				"py/gdocsmodels.py"
+			],
+			[
+				"db",
+				"py/doxdb.py"
+			],
+			[
+				"como",
+				"indocs/static/css/common.css"
+			],
+			[
+				"comm",
+				"indocs/static/css/common.css"
+			],
+			[
+				"ac",
+				"py/oksbadocsweb/static/js/model.activity.js"
+			],
+			[
+				"doxcoll",
+				"py/doxcollectors.py"
+			],
+			[
+				"doxenti",
+				"py/doxentities.py"
+			],
+			[
+				"gdocs",
+				"py/doxgdocs.py"
+			],
+			[
+				"resource",
+				"py/oksbadocsweb/static/js/model.resource.js"
+			],
+			[
+				"app.cs",
+				"py/oksbadocsweb/static/css/app.css"
+			],
+			[
+				"ind",
+				"py/oksbadocsweb/templates/index.html"
+			],
+			[
+				"fee",
+				"py/oksbadocsweb/static/js/view.feed.js"
+			],
+			[
+				"doxsch",
+				"py/doxschema.py"
+			],
+			[
+				"__in",
+				"py/oksbadocsweb/__init__.py"
+			],
+			[
+				"feed",
+				"py/oksbadocsweb/static/js/view.feed.js"
+			],
+			[
+				"route",
+				"py/oksbadocsweb/static/js/router.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/marksteve/Projects/Bitbucket/slambuko/slambuko.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true
+}
