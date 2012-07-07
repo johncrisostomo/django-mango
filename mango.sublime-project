@@ -1,0 +1,13 @@
+{
+	"settings":
+	{
+		"tab_size": 4,
+		"pep8_ignore": []
+	},
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}
