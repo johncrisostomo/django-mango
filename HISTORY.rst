@@ -3,12 +3,6 @@
 History
 -------
 
-0.1-dev (2012-07-04)
-+++++++++++++++++++
-
-- Added basic generic and proposal apps
-- Added base.html and home.html templates with twitter bootstrap assets
-
 0.1-dev (2012-07-07)
 +++++++++++++++++++
 
@@ -20,3 +14,18 @@ History
 NOTES:
 - Run manage.py syncdb to create south tables
 - Run manage.py migrate proposal to execute migrations
+
+0.1-dev (2012-07-06)
++++++++++++++++++++
+
+- Added Social Auth
+
+NOTES:
+- Run manage.py syncdb to create social auth tables
+- Add social auth api tokens to localsettings
+
+0.1-dev (2012-07-04)
++++++++++++++++++++
+
+- Added basic generic and proposal apps
+- Added base.html and home.html templates with twitter bootstrap assets
