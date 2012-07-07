@@ -54,6 +54,19 @@
     </div>
 
     <div class="container">
+
+        {% if messages %}
+        <div id="messages">
+            <ul>
+                {% for message in messages %}
+                    <li class="{% if message.tags %}{{ message.tags }}{% endif %}">
+                        {{ message }}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
         {% block content %}
         {% endblock content %}
     </div><!-- container -->

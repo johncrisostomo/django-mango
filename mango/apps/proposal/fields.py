@@ -1,6 +1,7 @@
 from django.core import validators
 from django.forms import CharField, ChoiceField, MultiValueField
 from django.utils.translation import ugettext_lazy as _
+from django.core.exceptions import ValidationError
 
 from proposal.widgets import TimeDurationWidget, TimeDurationHiddenWidget
 
@@ -11,7 +12,7 @@ TIME_DURATION_CHOICES = (
 )
 
 class TimeDurationField(MultiValueField):
-    widget = TimeDurationWidget
+    widget = TimeDurationWidget(choices=TIME_DURATION_CHOICES)
     hidden_widget = TimeDurationHiddenWidget
     default_error_messages = {
         'required': _(u'Enter a duration value.'),

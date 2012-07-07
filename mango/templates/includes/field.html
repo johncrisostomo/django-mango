@@ -1,0 +1,7 @@
+<div class="field">
+    {{ field.label_tag }}
+    {{ field }}
+    {% if field.errors %}
+        <span class="field-error">{{ field.errors }}</span>
+    {% endif %}
+</div>

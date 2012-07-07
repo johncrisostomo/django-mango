@@ -3,6 +3,17 @@
 
 {% block content %}
 <div id="proposal-create">
-    Create
+    <fieldset>
+        <legend>{% trans "Submit Proposal" %}</legend>
+        <form method="post">
+            {% csrf_token %}
+            {% for field in form %}
+                {% include "includes/field.html" %}
+            {% endfor %}
+            <div class="form-action">
+                <button>{% trans "Submit" %}</button>
+            </div>
+        </form>
+    </fieldset>
 </div>
 {% endblock content %}
