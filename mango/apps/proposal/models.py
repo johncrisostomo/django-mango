@@ -33,6 +33,8 @@ class Proposal(models.Model):
     duration = models.CharField(max_length=20)
     description = models.TextField()
     abstract = models.TextField()
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True, blank=True, null=True)
 
     def __unicode__(self):
         return self.title
