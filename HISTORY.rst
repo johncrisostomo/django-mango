@@ -12,6 +12,7 @@ History
 - Added form field TimeDurationField
 
 NOTES:
+
 - Run manage.py syncdb to create south tables
 - Run manage.py migrate proposal to execute migrations
 
@@ -21,6 +22,7 @@ NOTES:
 - Added Social Auth
 
 NOTES:
+
 - Run manage.py syncdb to create social auth tables
 - Add social auth api tokens to localsettings
 
