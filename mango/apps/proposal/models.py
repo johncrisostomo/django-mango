@@ -31,8 +31,9 @@ class Proposal(models.Model):
     type = models.ForeignKey(ProposalType)
     audience = models.ForeignKey(AudienceLevel)
     category = models.ForeignKey(Category)
-    is_extreme = models.BooleanField(default=False, help_text=_(u"Check if this is an extreme talk"))
-    duration = models.CharField(max_length=20)
+    is_extreme = models.BooleanField(
+        default=False, help_text=_(u"Check if this is an extreme talk"))
+    duration = models.CharField(max_length=20, blank=True, null=True)
     description = models.TextField()
     abstract = models.TextField()
     created = models.DateTimeField(auto_now_add=True)

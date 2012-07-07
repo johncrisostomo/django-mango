@@ -11,6 +11,7 @@ TIME_DURATION_CHOICES = (
     ('minutes', _(u'Minutes')),
 )
 
+
 class TimeDurationField(MultiValueField):
     widget = TimeDurationWidget(choices=TIME_DURATION_CHOICES)
     hidden_widget = TimeDurationHiddenWidget
