@@ -13,6 +13,8 @@ urlpatterns = patterns('',
     url(r'^logout$', 'django.contrib.auth.views.logout', {'next_page': '/'}),
     # Django Social Auth
     url(r'', include('social_auth.urls')),
+    # Django Mango
+    url(r'proposal/', include('proposal.urls')),
 )
 
 if settings.DEBUG:
