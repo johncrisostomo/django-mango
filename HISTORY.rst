@@ -10,6 +10,10 @@ History
 - Added south as depedency
 - Added widgets TimeDurationWidget and TimeDurationHiddenWidget
 - Added form field TimeDurationField
+- Added proposal_list and proposal_create views
+- Added ProposalForm form
+- Added is_extreme field for proposal model
+- Added field.html template for individual field rendering
 
 NOTES:
 
