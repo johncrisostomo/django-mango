@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from django.utils.translation import ugettext as _
 
 from proposal.forms import ProposalForm
 
@@ -12,7 +14,17 @@ def proposal_create(request):
     if request.method == 'POST':
         form = ProposalForm(request.POST)
         if form.is_valid():
-            pass
+            form.save()
+            messages.add_message(
+                request,
+                messages.SUCCESS,
+                _(u"Your proposal has been submitted."))
+            return redirect('proposal_list')
+        else:
+            messages.add_message(
+                request,
+                messages.ERROR,
+                _(u"An error occured while trying to submit your proposal."))
     else:
         form = ProposalForm()
     context = {
