@@ -134,7 +134,10 @@ INSTALLED_APPS = (
     # Django Mango
     'generic',
     'proposal',
+    'speakers',
 )
+
+AUTH_PROFILE_MODULE = 'generic.UserProfile'
 
 AUTHENTICATION_BACKENDS = (
     'social_auth.backends.twitter.TwitterBackend',
