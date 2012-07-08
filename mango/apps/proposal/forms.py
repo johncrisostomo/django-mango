@@ -9,10 +9,15 @@ class ProposalForm(forms.ModelForm):
 
     class Meta:
         model = Proposal
-        exclude = ('status',)
+        exclude = ('user', 'status',)
 
     def clean(self):
         data = self.cleaned_data
         if data['is_extreme']:  # if its extreme, duration is not required
             del self._errors['duration']
         return data
+
+    def save(self, user):
+        proposal = super(ProposalForm, self).save(commit=False)
+        proposal.user = user
+        proposal.save()

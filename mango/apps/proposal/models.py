@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
+from django.contrib.auth.models import User
 
 
 PROPOSAL_STATUS = (
@@ -34,6 +35,7 @@ class AudienceLevel(models.Model):
 
 
 class Proposal(models.Model):
+    user = models.ForeignKey(User, related_name='proposals')
     title = models.CharField(max_length=200)
     type = models.ForeignKey(ProposalType)
     audience = models.ForeignKey(AudienceLevel)

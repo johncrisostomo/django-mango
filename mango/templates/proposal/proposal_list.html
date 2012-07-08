@@ -40,7 +40,13 @@
                         {{ proposal.status }}
                     </td>
                     <td>
-                        <a href="#">{% trans "Approve" %}</a> | <a href="#">{% trans "Decline" %}</a>
+                        {% if proposal.status == 'pending' %}
+                            <a href="#">{% trans "Approve" %}</a> | <a href="#">{% trans "Decline" %}</a>
+                        {% elif proposal.status == 'approved' %}
+                            <a href="#">{% trans "Decline" %}</a>
+                        {% else %}
+                            <a href="#">{% trans "Approve" %}</a>
+                        {% endif %}
                     </td>
                 </tr>
                 {% endfor %}

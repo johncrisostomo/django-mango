@@ -1,4 +1,5 @@
 from django.test import TestCase
+from django.contrib.auth.models import User
 
 from proposal.models import Proposal, ProposalType, AudienceLevel, Category
 from proposal.forms import ProposalForm
@@ -8,6 +9,11 @@ class ProposalFormTest(TestCase):
     fixtures = ['proposal_types.json',
                 'categories.json',
                 'audience_levels.json']
+
+    def setUp(self):
+        self.user = User.objects.create_user('marconi',
+                                             'marconi@djangomango.com',
+                                             'supersecure')
 
     def test_is_extreme(self):
         """
@@ -29,7 +35,7 @@ class ProposalFormTest(TestCase):
                 'abstract': 'Some awesome abstract.'}
         form = ProposalForm(data=data)
         self.failUnless(form.is_valid())
-        form.save()
+        form.save(self.user)
         self.assertEqual(Proposal.objects.count(), 1)
 
     def test_not_is_extreme(self):

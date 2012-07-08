@@ -1,6 +1,21 @@
 {% extends "base.html" %}
 {% load i18n %}
 
+{% block javascript %}
+<script type="text/javascript">
+    $(function() {
+        $("input[name=is_extreme]").click(function() {
+            if ($(this).attr("checked") == "checked") {
+                $(this).parents(".field-wrapper").next().hide();
+            }
+            else {
+                $(this).parents(".field-wrapper").next().show();
+            }
+        });
+    });
+</script>
+{% endblock javascript %}
+
 {% block content %}
 <div id="proposal-create">
     <fieldset>

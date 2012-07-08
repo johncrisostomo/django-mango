@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.utils.translation import ugettext as _
 
@@ -18,7 +18,7 @@ def proposal_create(request):
     if request.method == 'POST':
         form = ProposalForm(request.POST)
         if form.is_valid():
-            form.save()
+            form.save(request.user)
             messages.add_message(
                 request,
                 messages.SUCCESS,
@@ -37,5 +37,9 @@ def proposal_create(request):
     return render(request, 'proposal/proposal_create.html', context)
 
 
-def proposal_detail(request):
-    pass
+def proposal_detail(request, proposal_id):
+    proposal = get_object_or_404(Proposal, id=proposal_id)
+    context = {
+        'proposal': proposal
+    }
+    return render(request, 'proposal/proposal_detail.html', context)
