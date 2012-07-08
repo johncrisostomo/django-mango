@@ -9,6 +9,9 @@ History
 - Added basic form styles
 - Added klass and widget templatetags
 - Tweaked field.html so it knows where to place the label when field is a checkbox
+- Added django-endless-pagination app as a dependency
+- Updated proposal listing
+- Added status field to proposal model
 
 0.1-dev (2012-07-07)
 +++++++++++++++++++
