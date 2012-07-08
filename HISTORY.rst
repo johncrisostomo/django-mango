@@ -12,6 +12,7 @@ History
 - Added django-endless-pagination app as a dependency
 - Updated proposal listing
 - Added status field to proposal model
+- Added tests for ProposalForm
 
 0.1-dev (2012-07-07)
 +++++++++++++++++++
