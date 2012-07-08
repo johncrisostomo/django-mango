@@ -19,6 +19,26 @@
 
 /* #Page Styles
 ================================================== */
+	.errorlist, .errorlist li {margin: 0}
+
+	/* forms */
+	legend {font-size: 20px; padding-bottom: 30px}
+	.field-wrapper {margin-bottom: 15px}
+	.field-wrapper label, .field-wrapper input, .field-wrapper textarea, .field-wrapper select {display: inline-block; margin: 0}
+	.field-wrapper label {float: left; min-width: 120px; padding: 4px 0}
+	.field-wrapper select {height: 28px}
+	.form-actions {padding-left: 120px}
+	.field {display: inline-block}
+	.field-error, .field-help {display: block; margin-top: 5px}
+	.field-error {color: #B94A48}
+	.field-help {font-size: 12px}
+	.field label {float: none; padding: 0}
+	.field.checkbox {margin-left: 120px}
+	.field.checkbox .field-help {margin-top: 0}
+
+	#proposal-create #id_duration_0 {width: 30px; text-align: center; margin-right: 5px}
+	#proposal-create #id_duration_1 {width: 100px}
+	#proposal-create #id_description, #proposal-create #id_abstract {width: 500px; height: 200px}
 
 /* #Media Queries
 ================================================== */

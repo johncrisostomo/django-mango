@@ -6,7 +6,7 @@ from proposal.fields import TimeDurationField
 
 
 class ProposalForm(forms.ModelForm):
-    duration = TimeDurationField(required=False)
+    duration = TimeDurationField(required=False, help_text="Hello World")
     class Meta:
         model = Proposal
 
