@@ -9,6 +9,7 @@ class ProposalForm(forms.ModelForm):
     duration = TimeDurationField(required=False, help_text="Hello World")
     class Meta:
         model = Proposal
+        exclude = ('status',)
 
     def clean(self):
         data = self.cleaned_data
