@@ -2,11 +2,11 @@ from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.models import User
 
-from generic.models import UserProfile
+import generic
 
 
 class UserProfileInline(admin.TabularInline):
-    model = UserProfile
+    model = generic.models.UserProfile
     fk_name = 'user'
     can_delete = False
     max_num = 1
