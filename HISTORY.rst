@@ -19,6 +19,7 @@ History
 - Added basic proposal detail page
 - Added slug field in proposal model
 - Updated proposal_detail url to accept slug instead of id
+- Added proposal_update_status view for update proposal status
 
 0.1-dev (2012-07-07)
 +++++++++++++++++++
