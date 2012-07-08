@@ -1,0 +1,30 @@
+[
+    {
+        "pk": 1,
+        "model": "proposal.proposaltype",
+        "fields": {
+            "name": "Tutorial"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "proposal.proposaltype",
+        "fields": {
+            "name": "Talk"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "proposal.proposaltype",
+        "fields": {
+            "name": "Panel"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "proposal.proposaltype",
+        "fields": {
+            "name": "Poster"
+        }
+    }
+]

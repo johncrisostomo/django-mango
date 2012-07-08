@@ -1,12 +1,12 @@
 from django import forms
-from django.utils.translation import ugettext_lazy as _
 
 from proposal.models import Proposal
 from proposal.fields import TimeDurationField
 
 
 class ProposalForm(forms.ModelForm):
-    duration = TimeDurationField(required=False, help_text="Hello World")
+    duration = TimeDurationField(required=False)
+
     class Meta:
         model = Proposal
         exclude = ('status',)

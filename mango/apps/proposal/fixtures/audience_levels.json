@@ -1,0 +1,16 @@
+[
+    {
+        "pk": 1,
+        "model": "proposal.audiencelevel",
+        "fields": {
+            "name": "Novice"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "proposal.audiencelevel",
+        "fields": {
+            "name": "Experienced"
+        }
+    }
+]
