@@ -41,11 +41,11 @@
                     </td>
                     <td>
                         {% if proposal.status == 'pending' %}
-                            <a href="#">{% trans "Approve" %}</a> | <a href="#">{% trans "Decline" %}</a>
+                            <a href="{% url proposal_update_status proposal.slug 'approved' %}">{% trans "Approve" %}</a> | <a href="{% url proposal_update_status proposal.slug 'declined' %}">{% trans "Decline" %}</a>
                         {% elif proposal.status == 'approved' %}
-                            <a href="#">{% trans "Decline" %}</a>
+                            <a href="{% url proposal_update_status proposal.slug 'declined' %}">{% trans "Decline" %}</a>
                         {% else %}
-                            <a href="#">{% trans "Approve" %}</a>
+                            <a href="{% url proposal_update_status proposal.slug 'approved' %}">{% trans "Approve" %}</a>
                         {% endif %}
                     </td>
                 </tr>

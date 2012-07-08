@@ -43,3 +43,14 @@ def proposal_detail(request, slug):
         'proposal': proposal
     }
     return render(request, 'proposal/proposal_detail.html', context)
+
+
+def proposal_update_status(request, slug, status):
+    next = request.GET.get('next', None)
+    proposal = get_object_or_404(Proposal, slug=slug)
+    proposal.status = status
+    proposal.save()
+    messages.add_message(request,
+                         messages.SUCCESS,
+                         _(u"Proposal has been updated."))
+    return redirect(next or 'proposal_list')

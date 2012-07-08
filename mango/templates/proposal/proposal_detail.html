@@ -33,5 +33,10 @@
     <hr>
     <h3>{% trans "Abstract" %}</h3>
     <div class="abstract">{{ proposal.abstract }}</div>
+    <hr>
+    <div class="actions">
+        <a href="{% url proposal_update_status proposal.slug 'approved' %}?next={% url proposal_detail proposal.slug %}">{% trans "Approve" %}</a> | 
+        <a href="{% url proposal_update_status proposal.slug 'declined' %}?next={% url proposal_detail proposal.slug %}">{% trans "Decline" %}</a>
+    </div>
 </div>
 {% endblock content %}
