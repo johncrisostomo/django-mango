@@ -133,6 +133,7 @@ INSTALLED_APPS = (
     # Django Mango
     'generic',
     'proposal',
+    'speakers',
 )
 
 AUTHENTICATION_BACKENDS = (

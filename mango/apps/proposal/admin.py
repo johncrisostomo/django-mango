@@ -1,9 +1,14 @@
 from django.contrib import admin
 
-from proposal.models import ProposalType, Category, AudienceLevel, Proposal
+import proposal
+import speakers
 
 
-admin.site.register(ProposalType)
-admin.site.register(Category)
-admin.site.register(AudienceLevel)
-admin.site.register(Proposal)
+# Proposal
+admin.site.register(proposal.models.ProposalType)
+admin.site.register(proposal.models.Category)
+admin.site.register(proposal.models.AudienceLevel)
+admin.site.register(proposal.models.Proposal)
+
+# Speakers
+admin.site.register(speakers.models.Speaker)
