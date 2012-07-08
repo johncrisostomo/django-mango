@@ -21,6 +21,10 @@ History
 - Updated proposal_detail url to accept slug instead of id
 - Added proposal_update_status view for update proposal status
 
+NOTES:
+
+- Run manage.py migrate proposal to execute migrations
+
 0.1-dev (2012-07-07)
 +++++++++++++++++++
 
