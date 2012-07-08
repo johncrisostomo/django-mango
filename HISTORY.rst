@@ -17,6 +17,8 @@ History
 - Added save method to ProposalForm which accepts user
 - Added bit of js to toggle duration form field if is_extreme is ticked
 - Added basic proposal detail page
+- Added slug field in proposal model
+- Updated proposal_detail url to accept slug instead of id
 
 0.1-dev (2012-07-07)
 +++++++++++++++++++
