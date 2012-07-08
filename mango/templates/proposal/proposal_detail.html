@@ -4,6 +4,34 @@
 {% block content %}
 <div id="proposal-detail">
     <h2>{{ proposal.title }}</h2>
-    
+    <div class="speaker">
+        <a href="{{ proposal.user.get_absolute_url }}">
+            {% with full_name=proposal.user.get_full_name username=proposal.user.username %}
+                {% if full_name == '' %}
+                    {{ username }}
+                {% else %}
+                    {{ full_name }}
+                {% endif %}
+            {% endwith %}
+        </a>
+    </div>
+    <dl>
+        <dt>{% trans "Type" %}:</dt>
+        <dd>{{ proposal.type.name }}</dd>
+        <dt>{% trans "Audience level" %}:</dt>
+        <dd>{{ proposal.audience.name }}</dd>
+        <dt>{% trans "Category" %}:</dt>
+        <dd>{{ proposal.category.name }}</dd>
+        {% if not proposal.is_extreme %}
+            <dt>{% trans "Duration" %}:</dt>
+            <dd>{{ proposal.duration }}</dd>
+        {% endif %}
+    </dl>
+    <hr>
+    <h3>{% trans "Description" %}</h3>
+    <div class="description">{{ proposal.description }}</div>
+    <hr>
+    <h3>{% trans "Abstract" %}</h3>
+    <div class="abstract">{{ proposal.abstract }}</div>
 </div>
 {% endblock content %}
