@@ -37,7 +37,7 @@ class AudienceLevel(models.Model):
 
 
 class Proposal(models.Model):
-    user = models.ForeignKey(User, related_name='proposals')
+    speaker = models.ForeignKey(User, related_name='proposals')
     slug = AutoSlugField(
         _('slug'), max_length=50, unique=True, populate_from=('title',))
     title = models.CharField(max_length=200)
