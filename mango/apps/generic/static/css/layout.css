@@ -36,6 +36,7 @@
 	.field.checkbox {margin-left: 120px}
 	.field.checkbox .field-help {margin-top: 0}
 
+	#proposal-list table {width: 100%}
 	#proposal-create #id_duration_0 {width: 30px; text-align: center; margin-right: 5px}
 	#proposal-create #id_duration_1 {width: 100px}
 	#proposal-create #id_description, #proposal-create #id_abstract {width: 500px; height: 200px}

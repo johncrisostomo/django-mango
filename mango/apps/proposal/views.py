@@ -3,10 +3,14 @@ from django.contrib import messages
 from django.utils.translation import ugettext as _
 
 from proposal.forms import ProposalForm
+from proposal.models import Proposal
 
 
 def proposal_list(request):
-    context = {}
+    proposals = Proposal.objects.all().select_related()
+    context = {
+        'proposals': proposals
+    }
     return render(request, 'proposal/proposal_list.html', context)
 
 
@@ -31,3 +35,7 @@ def proposal_create(request):
         'form': form
     }
     return render(request, 'proposal/proposal_create.html', context)
+
+
+def proposal_detail(request):
+    pass

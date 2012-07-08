@@ -2,6 +2,13 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
 
+PROPOSAL_STATUS = (
+    ('pending', _(u'Pending')),
+    ('approved', _(u'Approved')),
+    ('declined', _(u'Declined'))
+)
+
+
 class ProposalType(models.Model):
     name = models.CharField(max_length=100)
 
@@ -36,6 +43,8 @@ class Proposal(models.Model):
     duration = models.CharField(max_length=20, blank=True, null=True)
     description = models.TextField()
     abstract = models.TextField()
+    status = models.CharField(
+        max_length=10, choices=PROPOSAL_STATUS, default='pending')
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True, blank=True, null=True)
 
@@ -44,3 +53,7 @@ class Proposal(models.Model):
 
     def __unicode__(self):
         return self.title
+
+    @models.permalink
+    def get_absolute_url(self):
+        return ('proposal_detail', None, {'proposal_id': self.id})

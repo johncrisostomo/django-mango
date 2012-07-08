@@ -11,7 +11,8 @@ packages = ['mango']
 requires = [
     'Django==1.4',
     'django-social-auth',
-    'South==0.7.5'
+    'South==0.7.5',
+    'django-endless-pagination==1.1'
 ]
 
 setup(

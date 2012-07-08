@@ -129,6 +129,7 @@ INSTALLED_APPS = (
     # Third-party
     'social_auth',
     'south',
+    'endless_pagination',
     # Django Mango
     'generic',
     'proposal',
@@ -160,6 +161,11 @@ FACEBOOK_API_SECRET = ''
 LOGIN_URL = '/login'
 LOGIN_REDIRECT_URL = '/'
 LOGIN_ERROR_URL = '/login-error'
+
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
+TEMPLATE_CONTEXT_PROCESSORS += (
+     'django.core.context_processors.request',
+)
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
