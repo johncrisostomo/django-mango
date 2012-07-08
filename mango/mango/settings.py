@@ -130,6 +130,7 @@ INSTALLED_APPS = (
     'social_auth',
     'south',
     'endless_pagination',
+    'django_extensions',
     # Django Mango
     'generic',
     'proposal',

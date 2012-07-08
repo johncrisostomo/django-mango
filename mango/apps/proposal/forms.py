@@ -9,7 +9,7 @@ class ProposalForm(forms.ModelForm):
 
     class Meta:
         model = Proposal
-        exclude = ('user', 'status',)
+        exclude = ('user', 'slug', 'status',)
 
     def clean(self):
         data = self.cleaned_data

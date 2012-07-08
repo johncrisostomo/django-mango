@@ -37,8 +37,8 @@ def proposal_create(request):
     return render(request, 'proposal/proposal_create.html', context)
 
 
-def proposal_detail(request, proposal_id):
-    proposal = get_object_or_404(Proposal, id=proposal_id)
+def proposal_detail(request, slug):
+    proposal = get_object_or_404(Proposal, slug=slug)
     context = {
         'proposal': proposal
     }

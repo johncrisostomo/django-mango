@@ -12,7 +12,8 @@ requires = [
     'Django==1.4',
     'django-social-auth',
     'South==0.7.5',
-    'django-endless-pagination==1.1'
+    'django-endless-pagination==1.1',
+    'django_extensions==0.9'
 ]
 
 setup(
