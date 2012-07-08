@@ -3,6 +3,15 @@
 History
 -------
 
+0.1-dev (2012-07-09)
++++++++++++++++++++
+
+- Added user type model and added it as FK for user profile
+
+NOTES:
+
+- Run manage.py migrate generic to execute migrations
+
 0.1-dev (2012-07-08)
 +++++++++++++++++++
 
