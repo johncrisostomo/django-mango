@@ -13,6 +13,10 @@ History
 - Updated proposal listing
 - Added status field to proposal model
 - Added tests for ProposalForm
+- Added user field to proposal model
+- Added save method to ProposalForm which accepts user
+- Added bit of js to toggle duration form field if is_extreme is ticked
+- Added basic proposal detail page
 
 0.1-dev (2012-07-07)
 +++++++++++++++++++
