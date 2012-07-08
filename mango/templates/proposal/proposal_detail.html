@@ -5,8 +5,8 @@
 <div id="proposal-detail">
     <h2>{{ proposal.title }}</h2>
     <div class="speaker">
-        <a href="{{ proposal.user.get_absolute_url }}">
-            {% with full_name=proposal.user.get_full_name username=proposal.user.username %}
+        <a href="{{ proposal.speaker.get_absolute_url }}">
+            {% with full_name=proposal.speaker.get_full_name username=proposal.speaker.username %}
                 {% if full_name == '' %}
                     {{ username }}
                 {% else %}

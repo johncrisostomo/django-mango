@@ -9,7 +9,7 @@ class ProposalForm(forms.ModelForm):
 
     class Meta:
         model = Proposal
-        exclude = ('user', 'slug', 'status',)
+        exclude = ('speaker', 'slug', 'status',)
 
     def clean(self):
         data = self.cleaned_data
@@ -19,5 +19,5 @@ class ProposalForm(forms.ModelForm):
 
     def save(self, user):
         proposal = super(ProposalForm, self).save(commit=False)
-        proposal.user = user
+        proposal.speaker = user
         proposal.save()

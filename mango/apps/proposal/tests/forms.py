@@ -34,6 +34,7 @@ class ProposalFormTest(TestCase):
                 'description': 'Some awesome description.',
                 'abstract': 'Some awesome abstract.'}
         form = ProposalForm(data=data)
+        print form.errors
         self.failUnless(form.is_valid())
         form.save(self.user)
         self.assertEqual(Proposal.objects.count(), 1)
