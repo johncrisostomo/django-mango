@@ -136,6 +136,8 @@ INSTALLED_APPS = (
     'speakers',
 )
 
+AUTH_PROFILE_MODULE = 'generic.UserProfile'
+
 AUTHENTICATION_BACKENDS = (
     'social_auth.backends.twitter.TwitterBackend',
     'social_auth.backends.facebook.FacebookBackend',
