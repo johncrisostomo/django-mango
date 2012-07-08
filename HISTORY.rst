@@ -23,6 +23,7 @@ History
 
 NOTES:
 
+- Run setup.py develop to install extra dependencies
 - Run manage.py migrate proposal to execute migrations
 
 0.1-dev (2012-07-07)
