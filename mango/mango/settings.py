@@ -137,36 +137,6 @@ INSTALLED_APPS = (
     'speakers',
 )
 
-AUTH_PROFILE_MODULE = 'generic.UserProfile'
-
-AUTHENTICATION_BACKENDS = (
-    'social_auth.backends.twitter.TwitterBackend',
-    'social_auth.backends.facebook.FacebookBackend',
-    # 'social_auth.backends.google.GoogleOAuth2Backend',
-    # 'social_auth.backends.contrib.github.GithubBackend',
-    # 'social_auth.backends.contrib.yahoo.YahooOAuthBackend',
-    # 'social_auth.backends.contrib.bitbucket.BitbucketBackend',
-    'django.contrib.auth.backends.ModelBackend',
-)
-
-TWITTER_CONSUMER_KEY = ''
-TWITTER_CONSUMER_SECRET = ''
-FACEBOOK_APP_ID = ''
-FACEBOOK_API_SECRET = ''
-FACEBOOK_EXTENDED_PERMISSIONS = ['email']
-# GOOGLE_OAUTH2_CLIENT_ID = ''
-# GOOGLE_OAUTH2_CLIENT_SECRET = ''
-# GITHUB_APP_ID = ''
-# GITHUB_API_SECRET = ''
-# YAHOO_CONSUMER_KEY = ''
-# YAHOO_CONSUMER_SECRET = ''
-# BITBUCKET_CONSUMER_KEY = ''
-# BITBUCKET_CONSUMER_SECRET = ''
-
-LOGIN_URL = '/login'
-LOGIN_REDIRECT_URL = '/'
-LOGIN_ERROR_URL = '/login-error'
-
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 TEMPLATE_CONTEXT_PROCESSORS += (
      'django.core.context_processors.request',
@@ -200,6 +170,40 @@ LOGGING = {
         },
     }
 }
+
+AUTH_PROFILE_MODULE = 'generic.UserProfile'
+
+AUTHENTICATION_BACKENDS = (
+    'social_auth.backends.twitter.TwitterBackend',
+    'social_auth.backends.facebook.FacebookBackend',
+    # 'social_auth.backends.google.GoogleOAuth2Backend',
+    # 'social_auth.backends.contrib.github.GithubBackend',
+    # 'social_auth.backends.contrib.yahoo.YahooOAuthBackend',
+    # 'social_auth.backends.contrib.bitbucket.BitbucketBackend',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+TWITTER_CONSUMER_KEY = ''
+TWITTER_CONSUMER_SECRET = ''
+FACEBOOK_APP_ID = ''
+FACEBOOK_API_SECRET = ''
+FACEBOOK_EXTENDED_PERMISSIONS = ['email']
+# GOOGLE_OAUTH2_CLIENT_ID = ''
+# GOOGLE_OAUTH2_CLIENT_SECRET = ''
+# GITHUB_APP_ID = ''
+# GITHUB_API_SECRET = ''
+# YAHOO_CONSUMER_KEY = ''
+# YAHOO_CONSUMER_SECRET = ''
+# BITBUCKET_CONSUMER_KEY = ''
+# BITBUCKET_CONSUMER_SECRET = ''
+
+LOGIN_URL = '/login'
+LOGIN_REDIRECT_URL = '/'
+LOGIN_ERROR_URL = '/login-error'
+
+# Django Mango Settings
+
+SPEAKERS_GROUP_NAME = ''
 
 try:
     from localsettings import *

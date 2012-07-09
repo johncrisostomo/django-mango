@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'', include('social_auth.urls')),
     # Django Mango
     url(r'proposal/', include('proposal.urls')),
+    url(r'speakers/', include('speakers.urls')),
 )
 
 if settings.DEBUG:

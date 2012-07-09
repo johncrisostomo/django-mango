@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content %}
+
+<h2>{% trans "Speakers" %}</h2>
+
+<ul>
+    {% for speaker in speakers %}
+    <li>
+        <h3>{{ speaker.get_full_name }}</h3>
+        <p class="url">{{ speaker.userprofile.url }}</p>
+        <p class="bio">{{ speaker.userprofile.bio }}</p>
+    </li>
+    {% endfor %}
+</ul>
+
+
+{% endblock %}
