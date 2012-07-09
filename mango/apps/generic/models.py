@@ -10,6 +10,9 @@ class UserProfile(models.Model):
     url = models.CharField(max_length=255, blank=True, null=True)
     bio = models.TextField(blank=True, null=True)
 
+    def __unicode__(self):
+        return ''
+
 
 def create_user_profile(sender, instance, created, **kwargs):
     if created:
