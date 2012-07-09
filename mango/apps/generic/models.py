@@ -3,18 +3,8 @@ from django.db.models.signals import post_save
 from django.contrib.auth.models import User
 
 
-class UserType(models.Model):
-    name = models.CharField(max_length=100)
-
-    def __unicode__(self):
-        return self.name
-
-
 class UserProfile(models.Model):
     user = models.OneToOneField(User)
-    # FIXME: The unicode repr of the instance of this model
-    # is being displayed as the label for the type attribute
-    type = models.ForeignKey(UserType, null=True)
 
     # Speaker profile
     url = models.CharField(max_length=255, blank=True, null=True)

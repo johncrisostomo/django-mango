@@ -19,4 +19,3 @@ class UserProfileAdmin(UserAdmin):
 
 admin.site.unregister(User)
 admin.site.register(User, UserProfileAdmin)
-admin.site.register(generic.models.UserType)
