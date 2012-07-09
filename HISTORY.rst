@@ -6,11 +6,11 @@ History
 0.1-dev (2012-07-09)
 +++++++++++++++++++
 
-- Added user type model and added it as FK for user profile
+- Added speakers list view
 
 NOTES:
 
-- Run manage.py migrate generic to execute migrations
+- For speakers list view to work, add a speakers group and update the `SPEAKERS_GROUP_NAME` setting
 
 0.1-dev (2012-07-08)
 +++++++++++++++++++
